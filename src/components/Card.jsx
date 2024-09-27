@@ -1,5 +1,6 @@
 import React from "react";
-import Profile from "../assets/Profile.jpg";
+import profileImage from "@/assets/Profile.jpg";
+
 import {
   FaGithub,
   FaTwitter,
@@ -22,7 +23,7 @@ const Card = () => {
       <div className="max-w-sm bg-white shadow-md rounded-lg overflow-hidden w-full">
         <div className="flex justify-center items-center mt-10">
           <img
-            src={Profile}
+            src={profileImage}
             alt="Profile"
             className="h-36 w-36 rounded-full object-cover"
           />
